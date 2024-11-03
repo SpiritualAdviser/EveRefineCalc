@@ -3,19 +3,34 @@ body {
     background-color: #f5eddd;
 }
 
+.mainBlock {
+    display: grid;
+    gap: 5px;
+    padding: 10px;
+    align-content: center;
+    justify-items: start;
+    align-items: start;
+    justify-content: start;
+}
+
+.minerals {
+    display: grid;
+    width: 400px;
+    gap: 5px;
+    align-content: center;
+    justify-items: end;
+    align-items: start;
+    padding: 5px;
+    justify-content: start;
+}
+
 .calculateButton {
-    position: absolute;
     width: 100px;
     height: 30px;
-    left: 10px;
-    top: 250px;
 }
 
 .items {
     border: 5px solid #ff8c2e;
-    position: absolute;
-    left: 10px;
-    top: 300px;
 }
 
 .line {
@@ -28,53 +43,9 @@ body {
 
 .inputMinerals {
     background-color: #d1f4ff;
-    width: 100px
+    width: 80px
 }
 
-.labelIsogen {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-}
-
-.labelMegacyte {
-    position: absolute;
-    left: 10px;
-    top: 40px;
-}
-
-.labelMexallon {
-    position: absolute;
-    left: 10px;
-    top: 70px;
-}
-
-.labelNocxium {
-    position: absolute;
-    left: 10px;
-    top: 100px;
-}
-
-.labelPyerite {
-    position: absolute;
-    left: 10px;
-    top: 130px;
-}
-
-.labelTritanium {
-    position: absolute;
-    left: 10px;
-    top: 160px;
-}
-
-.labelZydrine {
-    position: absolute;
-    left: 10px;
-    top: 190px;
-}
-
-.labelMorphite {
-    position: absolute;
-    left: 10px;
-    top: 220px;
+.labelMinerals{
+    font-size: large;
 }
