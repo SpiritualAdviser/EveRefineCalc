@@ -5,8 +5,9 @@ body {
 
 .mainBlock {
     display: grid;
+    padding: 5px;
+    width: 97%;
     gap: 5px;
-    padding: 10px;
     align-content: center;
     justify-items: start;
     align-items: start;
@@ -15,7 +16,7 @@ body {
 
 .minerals {
     display: grid;
-    width: 400px;
+    width: 300px;
     gap: 5px;
     align-content: center;
     justify-items: end;
@@ -31,6 +32,7 @@ body {
 
 .items {
     border: 5px solid #ff8c2e;
+    font-size: small;
 }
 
 .line {
@@ -47,5 +49,5 @@ body {
 }
 
 .labelMinerals{
-    font-size: large;
+    font-size: medium;
 }
